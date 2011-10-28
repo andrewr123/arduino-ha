@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map WAKEUP
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+WAKEUP				KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+startHeartbeat		KEYWORD2
+stopHeartbeat		KEYWORD2				
+getElapsed			KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MAXSLEEPERS 		LITERAL1		
+MAXPENDING 			LITERAL1		
+MAXHEARTBEAT 		LITERAL1
+CODEOVERHEAD 		LITERAL1
+TREAT_AS_ISR 		LITERAL1
+TREAT_AS_NORMAL 	LITERAL1
