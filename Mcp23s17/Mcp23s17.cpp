@@ -10,6 +10,32 @@
 // Assumes prior initialisation of SPI comms
 // For speed, direct access to SPI registers used in place of standard SPI.transfer method
 
+/*
+   Version history
+   ---------------
+  
+   v1 - Mar 11 - dreamcat https://github.com/dreamcat4/Mcp23s17
+   v2 - Oct 11 - Andrew Richards - https://github.com/andrewr123/arduino-ha
+		Modifications to add interrupt handling and allow use with standard SPI library
+
+		Licensing (for v2 code; no licensing specified for v1 code)
+	    ---------
+
+	    This program is free software: you can redistribute it and/or modify
+	    it under the terms of the GNU General Public License as published by
+	    the Free Software Foundation, either version 3 of the License, or
+	    (at your option) any later version.
+	
+	    This program is distributed in the hope that it will be useful,
+	    but WITHOUT ANY WARRANTY; without even the implied warranty of
+	    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	    GNU General Public License for more details.
+	
+	    You should have received a copy of the GNU General Public License
+	    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+*/
+	   
 #include "WConstants.h"
 #include "Mcp23s17.h"
 #include "wiring_private.h"
