@@ -1,0 +1,35 @@
+#######################################
+# Syntax Coloring Map For ePIR ePIR();
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+Init	KEYWORD2
+Status	KEYWORD2
+LightLevel	KEYWORD2
+GateThresh	KEYWORD2
+MDRmode	KEYWORD2
+MDtime	KEYWORD2
+TimeLeft	KEYWORD2
+Unsolicited	KEYWORD2
+Extended	KEYWORD2
+Frequency	KEYWORD2
+Suspend	KEYWORD2
+PulseCount	KEYWORD2
+Sensitivity	KEYWORD2
+Direction	KEYWORD2
+Reset	KEYWORD2
+Sleep	KEYWORD2
+Version	KEYWORD2
+#######################################
+# Instances (KEYWORD2)
+#######################################
+EPIR	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
